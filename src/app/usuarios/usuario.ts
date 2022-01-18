@@ -1,7 +1,7 @@
 export interface Usuario {
-  id: number;
-  name: string;
+  id:Number;
+  name:String;
   fecha_nacimiento: Date;
-  edad: number;
-  direccion: string;
+  edad: Number;
+  domicilio: String;
 }
